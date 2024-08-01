@@ -357,25 +357,27 @@ td {
   margin-top: 54px;
 }
 
-input,.gender {
-  padding: 12px 40px 12px 20px;
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.1);
-  color:rgba(255, 255, 255, 0.5) ;
-  gap: 15px;
-  margin-bottom: 12px;
-  border: none;
-}
 
 .form .form-wrap{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 10px;
 }
+
+input,.gender {
+  padding: 10px 25px 12px 50px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color:rgba(255, 255, 255, 0.5) ;
+  gap: 15px; 
+  margin-bottom: 12px;
+  border: none;
+}
+
+
 .form select{
   padding: 10px 20px;
   background-color: #383838;
-  color: rgba(255, 255, 255, 0.3);
 }
 .form .actv{
   grid-column: 1 / span 3;
@@ -385,6 +387,7 @@ input,.gender {
   padding: 12px 40px 12px 20px;
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.1);
+  color:rgba(255, 255, 255, 0.5) ;
   padding: 12px 150px;
   margin-bottom: 12px;
 }
@@ -462,6 +465,7 @@ input,.gender {
   background-size: cover;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.3);
+
 }
 
 .trainer-desc {
@@ -572,6 +576,7 @@ hr {
   }
 
   /* Banner Section  */
+  
 
   .banner-container {
     max-width: 576px;
@@ -593,11 +598,11 @@ hr {
     margin-left: 5px;
   }
   .banner-content h1 {
+    line-height: 30px;
     font-size: 25px;
   }
   .banner-content p {
-    font-size: 9px;
-    line-height: none;
+    font-size: 14px;
     margin-bottom: 20px;
     font-weight: 500;
   }
@@ -613,7 +618,7 @@ hr {
     width: 140px;
     height: 70px;
     left: 40px;
-    bottom: -65px;
+    bottom: -150px;
     right: 370px;
   }
   .free-videos {
@@ -704,7 +709,7 @@ hr {
   }
 
   .bmi-tables h1 {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .bmi-form {
@@ -719,11 +724,18 @@ hr {
   }
 
   .bmi-form input {
-    padding: 6px 10px 6px 10px;
+    padding: 13px 0px 11px 4px;
+    width: 100%;
   }
 
+
+  .form select {
+    padding: 10px ;
+}
+
+ 
   .bmi-cal-btn {
-    width: 215px;
+    width: 150px;
     height: 40px;
     font-weight: 20px;
   }
