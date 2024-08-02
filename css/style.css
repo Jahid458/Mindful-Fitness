@@ -482,16 +482,17 @@ input,.gender {
 /* Footer */
 footer {
   background-color: rgb(34, 34, 34);
-  padding: 100px 70px;
+  padding: 33px 30px;
 }
 .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 50px;
 }
 
 .footer-colm {
-  margin-right: 30px;
+  margin-right: 110px;
 }
 .footer-logo {
   color: rgb(230, 83, 60);
@@ -499,7 +500,7 @@ footer {
   font-family: "Inter";
   margin-right: 10px;
   margin-bottom: 30px;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 800;
 }
 .footer-content {
@@ -522,7 +523,7 @@ footer {
   list-style: none;
   font-style: 15px;
   margin-top: 15px;
-  margin-right: 10px;
+  margin-right: 40px;
   color: rgba(255, 255, 255, 0.5);
   font-family: "Inter";
   font-size: 20px;
@@ -531,7 +532,7 @@ footer {
 
 hr {
   color: rgba(255, 255, 255, 0.5);
-  width: 1090px;
+  width: 1200px;
   margin-top: 60px;
   margin-bottom: 30px;
 }
@@ -544,7 +545,12 @@ hr {
 /* Responsive Media query */
 /* Mobile Device */
 @media screen and (max-width: 576px) {
+
+  body{
+    overflow-x: hidden;
+  }
   /* Header */
+
 
   .header-container {
     max-width: 576px;
@@ -618,7 +624,7 @@ hr {
     width: 140px;
     height: 70px;
     left: 40px;
-    bottom: -150px;
+    bottom: -100px;
     right: 370px;
   }
   .free-videos {
@@ -779,32 +785,51 @@ hr {
   }
 
   /* Footer */
-
+  .footer-logo{
+    font-size: 25px;
+  }
   .footer {
-    padding: 50px 0;
+    padding: 20px 10px;
   }
-  .footer-logo {
-    font-size: 40px;
-  }
+  /* .footer-logo {
+    font-size: 30px;
+  } */
   .footer-container {
     flex-direction: column;
-    gap: 30px;
+    gap: 17px;
+    /* margin-right: 35px; */
+  }
+  .mobile-break{
+    display: none;
   }
 
   .footer-content p {
-    margin-right: -80px;
+    font-size: 12px;
+    margin-right: -30px;
+  }
+ 
+
+  .footer-colm{
+    margin-left: 10px;
   }
 
   .footer-colm h2 {
-    font-size: 25px;
+    font-size: 20px;
+  }
+
+  .footer-colm > ul > li{
+    font-size: 12px;
   }
 
   hr {
-    width: 200px;
+    width: 250px;
+    margin-left: 15px;
+    margin-top: 25px;
   }
 
   .reserved-title p {
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 300;
   }
+ 
 }
