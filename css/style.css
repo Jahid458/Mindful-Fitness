@@ -199,6 +199,14 @@ a {
   font-size: 20px;
   font-weight: 900;
   color: white;
+  position: absolute;
+}
+.playbtn{
+  position: relative;
+  left: 35%;
+  top: 15%;
+  color: #fff;
+
 }
 .free-videos {
   display: flex;
@@ -546,9 +554,6 @@ hr {
 /* Mobile Device */
 @media screen and (max-width: 576px) {
 
-  body{
-    overflow-x: hidden;
-  }
   /* Header */
 
 
@@ -571,7 +576,7 @@ hr {
 
   .primary-btn,
   .secondary-btn {
-    width: 103px;
+    width: 155px;
     height: 40px;
     font-size: 13px;
   }
@@ -594,21 +599,19 @@ hr {
     justify-content: space-between;
   }
   .banner-img-container {
+    width: 100%;
     height: 580px;
   }
-  .banner-img-container img {
-    margin-left: 70px;
-  }
-
+  
   .banner-content {
     margin-left: 5px;
   }
   .banner-content h1 {
+    font-size: 35px;
     line-height: 30px;
-    font-size: 25px;
   }
   .banner-content p {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 20px;
     font-weight: 500;
   }
@@ -618,29 +621,30 @@ hr {
   */
 
   .banner-img {
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .circle {
-    width: 140px;
+    width: 156px;
     height: 70px;
     left: 40px;
     bottom: -100px;
     right: 370px;
   }
   .free-videos {
-    width: 130px;
+    width: 156px;
     height: 70px;
     top: -515px;
-    left: 300px;
+    left: 200px;
   }
   .free-videos p {
     align-items: center;
-    margin-left: 3px;
-    font-size: 12px;
+    text-align: left;
+    margin-left: 22px;
+    font-size: 15px;
   }
   .dot {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-left: 3px;
   }
 
@@ -648,7 +652,7 @@ hr {
   .habit-images-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 25px;
-    margin-left: 54px;
+    margin-left: 100px;
   }
 
   .habit-content h1 {
@@ -660,7 +664,7 @@ hr {
 
   /* Run extra mile  */
   .run-extra-mile {
-    width: 260px;
+    width: 365px;
     height: 450px;
     display: flex;
     flex-direction: column;
@@ -669,8 +673,8 @@ hr {
     padding: 20px;
   }
   .run-contents {
-    margin-left: -48px;
-    width: 200px;
+    margin-left: -40px;
+    width: 275px;
   }
 
   .run-contents h1 {
@@ -678,22 +682,23 @@ hr {
   }
 
   .run-contents p {
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 15px;
     margin-bottom: 15px;
     font-weight: 400;
   }
 
   .run-images img {
-    width: 262px;
-    height: 207px;
+    width: 350px;
+    height: 230px;
     margin: 8px;
     padding: 5px;
     border-radius: 20px;
+    margin-top: 10px;
   }
 
   .run-btn {
-    width: 240px;
+    width: 320px;
     height: 40px;
   }
 
@@ -704,51 +709,51 @@ hr {
 
   .bmi-content {
     max-width: 570px;
-    height: 710px;
+    height: 750px;
     display: flex;
     flex-direction: column;
   }
 
   .bmi-tables {
-    margin-top: 11px;
-    margin-left: -6px;
+    margin-top: 20px;
+    margin-left: -75px;
   }
 
   .bmi-tables h1 {
-    font-size: 15px;
+    font-size: 20px;
+  }
+  .form .form-wrap{
+    width: 125%;
+    gap: 15px;
+  }
+  
+  .form-wrap .gender{
+    margin-left: 7px;
   }
 
   .bmi-form {
     width: 300px;
     height: 443px;
     margin-top: -165px;
+    margin-right: 60px;
   }
 
   .bmi-form h1 {
-    font-size: 18px;
+    font-size: 25px;
     margin-top: 30px;
   }
 
-  .bmi-form input {
-    padding: 13px 0px 11px 4px;
+  .bmi-form input,.bmi-form select {
+    padding: 13px 0px 11px 10px;
     width: 100%;
+    gap: 8px;
   }
 
-
-  .form select {
-    padding: 10px ;
-}
-
- 
   .bmi-cal-btn {
-    width: 150px;
+    width: 200px;
     height: 40px;
-    font-weight: 20px;
   }
 
-  #factor-actv input {
-    padding: 12px 60px;
-  }
 
   /* Team Members */
 
@@ -765,9 +770,10 @@ hr {
   }
   .members {
     grid-template-columns: repeat(1, 1fr);
-    gap: 13px;
+    gap: 8px;
     justify-items: center;
     justify-content: space-evenly;
+    padding: 23px;
   }
 
   .meet-team p {
@@ -786,7 +792,7 @@ hr {
 
   /* Footer */
   .footer-logo{
-    font-size: 25px;
+    font-size: 35px;
   }
   .footer {
     padding: 20px 10px;
@@ -804,32 +810,32 @@ hr {
   }
 
   .footer-content p {
-    font-size: 12px;
+    font-size: 15px;
     margin-right: -30px;
   }
  
 
   .footer-colm{
-    margin-left: 10px;
+    margin-left: -45px;
   }
 
   .footer-colm h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .footer-colm > ul > li{
-    font-size: 12px;
+    font-size: 20px;
   }
 
   hr {
-    width: 250px;
+    width: 330px;
     margin-left: 15px;
     margin-top: 25px;
   }
 
   .reserved-title p {
-    font-size: 13px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 400;
   }
  
 }
