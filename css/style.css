@@ -731,14 +731,7 @@ hr {
     margin-bottom: 20px;
     font-weight: 500;
   }
-  /* button{
-  margin-right: 10px;
- }
-  */
-
-  .banner-img {
-    /* margin-left: 50px; */
-  }
+ 
   .circle {
     width: 156px;
     height: 70px;
@@ -951,13 +944,10 @@ hr {
   .footer {
     padding: 20px 10px;
   }
-  /* .footer-logo {
-    font-size: 30px;
-  } */
+
   .footer-container {
     flex-direction: column;
     gap: 17px;
-    /* margin-right: 35px; */
   }
   .mobile-break{
     display: none;
