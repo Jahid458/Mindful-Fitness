@@ -461,7 +461,7 @@ input,.gender {
   margin-bottom: 1rem;
 }
 .pricing-title,.pricing-number{
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 600;
 }
 
@@ -496,7 +496,42 @@ input,.gender {
   align-items: center;
 }
 
+.pricing-item i{
+  color: rgb(230, 83, 60);
+}
+.pricing-item-opacity{
+  opacity: 0.3;
+}
+.pricing-btn{
+  background-color: #ffffff3d;
+}
+.pricing-btn:hover{
+  background: rgb(230, 83, 60);
+}
 
+.pricing-card-active{
+  background: rgb(230, 83, 60);
+  border: 2px solid  rgba(230, 83, 60, 0.432);;
+
+}
+
+.pricing-card-active .pricing-shape{
+  background-color: rgba(56, 56, 56, 0.089);
+}
+
+.pricing-card-active .pricing-item i{
+  color: rgba(10, 7, 7, 0.733);
+}
+
+.pricing-card-active .pricing-title,
+.pricing-card-active .pricing-number,
+.pricing-card-active .pricing-item{
+  color: black;
+}
+
+.pricing-card-active .pricing-btn:hover{
+  background-color: black;
+}
 
 /* Meet Team */
 .meet-team {
