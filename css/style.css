@@ -165,14 +165,14 @@ a {
 }
 
 .banner-img {
-  margin-right: 100px;
+  margin-right: 160px;
   position: relative;
 }
 
 .circle,
 .free-videos {
-  width: 200px;
-  height: 90px;
+  width: 180px;
+  height: 80px;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
@@ -186,7 +186,7 @@ a {
   align-items: center;
   gap: 10px;
   position: absolute;
-  bottom: -50px;
+  bottom: -125px;
   right: 350px;
 }
 .dot {
@@ -743,7 +743,7 @@ hr {
     width: 156px;
     height: 70px;
     left: 40px;
-    bottom: -100px;
+    bottom: -225px;
     right: 370px;
   }
   .free-videos {
@@ -902,12 +902,6 @@ hr {
     height: 22px;
   }
    
-  
-
-
-   
-
-
   /* Team Members */
 
   .team-members {
@@ -999,3 +993,4 @@ hr {
   }
  
 }
+
