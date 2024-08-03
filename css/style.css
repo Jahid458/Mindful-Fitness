@@ -416,6 +416,87 @@ input,.gender {
   font-size: 18px;
   cursor: pointer;
 }
+/* Pricing section  */
+.price-contents{
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 80px;
+}
+.pricing-cards-lists{
+  max-width: 1040px;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  gap: 100px;
+  margin-top: 25px;
+}
+.pricing-card{
+  background-color: hsla(79, 6%, 64%, 0.7);
+  padding: 55px 55px;
+  margin-top: 3px;
+  border-radius: 10px;
+}
+
+ .pricing-card>ul{
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.pricing-card > ul li{
+  font-size: 14px;
+}
+
+.pricing-img{
+    width: 45px;
+    margin-left: 7px;
+    margin-top: 6px;
+}
+.pricing-shape {
+  width: 60px;
+  height: 60px;
+  background-color: gray;
+  border-radius: 60%;
+  place-items: center;
+  margin-bottom: 1rem;
+}
+.pricing-title,.pricing-number{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.pricing-title{
+  color: #383838;
+  margin-bottom: 1rem;
+}
+.pricing-card,.pricing-list{
+  display: grid;
+}
+.pricing-number{
+  margin-bottom: 1rem;
+}
+
+.pricing-list{
+  row-gap: 1.5rem;
+}
+
+.pricing-btn{
+  background: rgb(230, 83, 60);
+  padding: 20px;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.pricing-item{
+  display: flex;
+  column-gap: .5rem;
+  align-items: center;
+}
+
+
 
 /* Meet Team */
 .meet-team {
@@ -487,6 +568,8 @@ input,.gender {
 .trainer .trainer-desc h4 {
   color: rgba(0, 0, 0, 0.5);
 }
+
+
 /* Footer */
 footer {
   background-color: rgb(34, 34, 34);
@@ -555,8 +638,6 @@ hr {
 @media screen and (max-width: 576px) {
 
   /* Header */
-
-
   .header-container {
     max-width: 576px;
     margin: 0 auto;
@@ -759,7 +840,10 @@ hr {
 
   .team-members {
     max-width: 576px;
-    height: 1390px;
+    height: 920px;
+  }
+  .members{
+    margin-top: -20px;
   }
   .meet-team h1 {
     font-size: 21px;
@@ -788,6 +872,10 @@ hr {
   .trainer img {
     margin-top: 20px;
     margin-bottom: 22px;
+  }
+
+  .trainer-1,.trainer-4{
+    display: none;
   }
 
   /* Footer */
