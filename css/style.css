@@ -306,6 +306,8 @@ a {
   border-radius: 7px;
   margin-top: 15px;
   margin-left: 14px;
+  object-fit: none;
+  object-position: 68% 32%;
 }
 
 /* BMI Section */
@@ -804,6 +806,7 @@ hr {
     padding: 5px;
     border-radius: 20px;
     margin-top: 10px;
+    object-fit: cover;
   }
 
   .run-btn {
@@ -1092,32 +1095,60 @@ hr {
   margin-top: -70px;
 }
 .pricing-card {
-  width: 150px;
-  height: 300px;
+  width: 113px;
+  height: 210px;
+}
+
+.pricing-header{
+  margin-top: -40px;
 }
 .pricing-shape {
   width: 40px;
   height: 40px;
+  align-items: start;
+  margin-left: -40px;
+ 
 }
 .pricing-img {
-  width: 33px;
-  margin-left: 3px;
+  width: 32px;
+  margin-left: 4px;
   margin-top: 4px;
 }
 
 .pricing-title, .pricing-number {
-  font-size: 18px;
+  font-size: 14px;
   margin-top: -10px;
+  margin-left: -36px;
 }
 
 .pricing-card>ul {
   margin-bottom: 105px;
+  margin-right: 10px;
 }
 .pricing-btn {
-  width: 125px;
-  height: 18px;
-  margin-top: -90px;
+  width: 100px;
+  height: 5px;
+  margin-top: -86px;
+  margin-left: -20px;
+  text-align: center;
+  font-size: 10px;
 }
+.pricing-card > ul li {
+  font-size: 10px;
+}
+.pricing-list li{
+  font-size: 10px;
+}
+
+.pricing-item i{
+  margin-right: 10px;
+}
+.pricing-list{
+  margin: -32px;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
 
 .meet-team h1 {
   font-size: 29px;
@@ -1142,6 +1173,7 @@ hr {
 }
 .footer-content{
   margin-top: -75px;
+  margin-left: -10px;
   padding: 0;
 }
 .footer-content p{
